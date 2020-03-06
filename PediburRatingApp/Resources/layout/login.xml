@@ -1,0 +1,123 @@
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical "
+        >
+            <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background ="@drawable/side_nav_bar"
+        >
+        <Refractored.Controls.CircleImageView
+            android:id="@+id/circleImageView1"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_centerInParent ="true"
+            android:src="@drawable/icon_c"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="Pedibur Rating App"
+            android:textColor="@color/gray"
+            android:fontFamily="cursive"
+            android:layout_below="@id/circleImageView1"
+            android:layout_alignParentBottom="true"
+            
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:padding="10dp"
+        android:background="#B4D8E7"
+        
+        >
+     <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:textColor="#56BAEC"
+                android:fontFamily="cursive"
+                android:textSize="35dp"
+                android:gravity="center"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailText"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:autofillHints="#56BAEC" 
+            android:textColorHint="#56BAEC"
+            android:inputType="textEmailAddress"
+                
+            />
+           
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordText"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:fontFamily="cursive" 
+            android:textColorHint="#56BAEC"
+            android:inputType="textPassword"
+                
+            />
+           
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_height="45dp"
+            android:layout_width="300dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:background="#56BAEC"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/signinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/loginButton"
+            android:layout_marginTop="8dp"
+            android:text="Not Registered, Click Here"
+            />
+         <TextView
+            android:id="@+id/forgotButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/signinButton"
+            android:layout_marginTop="8dp"
+            android:text="Forgot Password?"
+            />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

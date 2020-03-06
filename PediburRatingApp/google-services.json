@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078884778090",
+    "firebase_url": "https://pediburratingapp.firebaseio.com",
+    "project_id": "pediburratingapp",
+    "storage_bucket": "pediburratingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078884778090:android:275ea1c6df003f37f04a13",
+        "android_client_info": {
+          "package_name": "com.stitagum.pediburratingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078884778090-10ut3kkn0ms6g52ppfrlo2cqtof93m09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stitagum.pediburratingapp",
+            "certificate_hash": "dc5721d3f475a912c9f1de0690b775854917046c"
+          }
+        },
+        {
+          "client_id": "1078884778090-2hadqb4e7pcrevnsi44kghro73jul8jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ZBvONyo6vt7ZH1pzwG8i1oxsEnXLRLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078884778090-2hadqb4e7pcrevnsi44kghro73jul8jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

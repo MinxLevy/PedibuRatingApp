@@ -1,0 +1,12 @@
+
+  <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><!--Get Driver--><LinearLayout android:orientation="vertical" android:paddingTop="16dp" android:paddingLeft="16dp" android:paddingRight="16dp" android:background="#fff" android:layout_width="match_parent" android:layout_height="100dp"><RelativeLayout android:layout_height="0dp" android:layout_weight="0.5" android:layout_width="match_parent"><TextView android:id="@+id/Name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:text="Gio Garcia" android:textStyle="bold" android:textSize="18sp" /><TextView android:id="@+id/Location" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Prk 5-A San Miguel Tagum City" android:layout_below="@id/Name" /><TextView android:id="@+id/BodyNum" android:text="1014" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" /></RelativeLayout><RelativeLayout android:id="@+id/drivers" android:layout_height="0dp" android:layout_width="match_parent" android:layout_weight="0.5"><!--<ImageView
+		android:id="@+id/ratingButton"
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/rating"
+			android:padding="4dp"
+			android:layout_marginBottom="6dp"
+
+		/>--><View android:layout_height="1dp" android:layout_width="match_parent" android:background="#e2e2e2" android:layout_alignParentBottom="true" /></RelativeLayout></LinearLayout><!--Rating Layout--></LinearLayout>
